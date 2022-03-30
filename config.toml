@@ -1,0 +1,44 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Blackburn Theme Demo"
+theme = "blackburn"
+author = "Yoshiharu Yamashita"
+copyright = "&copy; 2019. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A Hugo Theme"
+  brand = "Paco Höller"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+
+[[menu.brand]]
+  weight = 1
+  identifier = "Paco Höller"
+  url = "/"
+
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Painting"
+    weight = 2
+    identifier = "Painting"
+    url = "/Painting"
+  [[menu.main]]
+    name = "Sculpture"
+    weight = 3
+    identifier = "Sculpture"
+    url = "/Sculpture/"
+  [[menu.main]]
+    name = "Contact"
+    weight = 6
+    url = "/contact/"
